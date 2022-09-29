@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    background-color:aliceblue;
+}
+
+.card-container {
+    width: 250px;
+    box-shadow: 0px 0px 15px -5px;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    background-color:ivory;
+    transition: 0.5s;
+    animation: ease-in;
+    cursor: pointer;
+}
+
+.Image{
+    width: 250px;
+    height:300px;
+}
+
+.card-title{
+    padding: 8px;
+    text-transform:capitalize;
+    background-color:ivory;
+    color:navy;
+}
+
+.card-body{
+    text-align: center;
+    background-color:ivory;
+    color: orange;
+}
+
+
+.card-container:hover{
+    transform:scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+    animation: ease-in;
+}  
+
